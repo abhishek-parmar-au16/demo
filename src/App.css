@@ -42,7 +42,9 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 98vh;
+  height: 100vh;
+  background-color: #faf8f8
+
 
 }
 #food h1{
@@ -55,4 +57,69 @@ line-height: 1;
   max-width:80% ;
   margin: auto;
   text-align: center;
+}
+
+.category-card{
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.category-cards{
+  box-sizing: border-box;
+  flex: 1 0 20%;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.category-cards>div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 10px 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 400;
+  margin: 1rem 0px;
+}
+
+#about{
+  display: flex;
+  flex-direction: row;
+  justify-content: normal;
+  height: 100vh;
+  background-color: white
+}
+
+#about>div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 10px 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+#about h1{
+  font-size: 3rem;
+  color:black;
+  font-weight: 400;
+  line-height: 1;
+}
+#about h2{
+  font-size: 3rem;
+  color:black;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.imagecard{
+  display: flex;
+}
+.aboutimage{
+  height: 40vh;
 }
