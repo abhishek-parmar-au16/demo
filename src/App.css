@@ -123,3 +123,19 @@ h4 {
 .aboutimage{
   height: 40vh;
 }
+
+#api{
+  display: flex;
+  flex-direction: row;
+  justify-content: normal;
+  height: 100vh;
+  background-color: rgb(231, 161, 161)
+}
+
+.kuchnhi{
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+ background-repeat: no-repeat;
+
+}
