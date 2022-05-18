@@ -24,7 +24,7 @@ function AppBarComponents() {
         { id: "products", title: "Products", route: '/products' },
         { id: 'contact-us', title: "Contact Us", route: "/contact" }
     ]
-    return <AppBar color="primary" elevation={0}
+    return <AppBar elevation={0}
         color={scrolled ? 'primary' : "transparent"}
         // sx={{ backgroundColor: scrolled ? (theme) => theme.palette.secondary.main : 'transparent' }}
         >

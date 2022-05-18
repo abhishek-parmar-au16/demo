@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css'
 import AppBar from './AppBar'
+import BestSelling from './BestSelling'
+import AboutUs from './About'
 
 const Hero = () => {
     return (
@@ -18,6 +20,8 @@ const Hero = () => {
                 
                 <button id="button">Discover now</button>
             </div>
+            {/* <AboutUs /> */}
+            {/* <BestSelling /> */}
         </section>
     );
 };
