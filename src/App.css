@@ -34,6 +34,17 @@
   border-radius: 30px;
 }
 
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(14, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(./images/ecofood-about-subheader-bg.jpg);
+  background-repeat: no-repeat;
+  /* background-position: cover; */
+  background-size: cover;
+}
+
 body{
   margin: 0;
 }

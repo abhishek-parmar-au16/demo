@@ -5,9 +5,9 @@ import FoodCard from './Components/FoodCard.js';
 import ThemeProvider from '@mui/material/styles/ThemeProvider'
 // import Theme from './MaterialConfig/Theme'
 import About from './Components/About.js'
-import Contact from './Components/Contact/Contact.js'
 import Product from './Components/Products/Product.js'
 import BestSelling from './Components/BestSelling.js'
+import Contact from './Components/Contact/Contact.js'
 
 
 
