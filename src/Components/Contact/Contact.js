@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css'
 import {useLocation ,Link , useNavigate,Navigate} from 'react-router-dom'
+import { Formik } from 'formik';
 import { TextField, Input, Grid } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
@@ -47,14 +48,24 @@ const Contact = () => {
                 color="success"
                 focused
               /> */}
+
+              {/* <input
+              className ="px-2" 
+              placeholder ="Name"
+              type="text"
+              maxlength="50"
+              >
+              
+              </input>
+              <input></input> */}
               <TextField
-                label="Standard warning"
+                label="Please Enter Your Name"
                 variant="standard"
                 color="warning"
                 focused
               />
               <TextField
-                label="Standard warning"
+                label="Please Enter Phone Number"
                 variant="standard"
                 color="warning"
                 focused
