@@ -8,6 +8,8 @@ import About from './Components/About.js'
 import Product from './Components/Products/Product.js'
 import BestSelling from './Components/BestSelling.js'
 import Contact from './Components/Contact/Contact.js'
+import Counter from './Components/Context/Counter'
+import CounterProvider from './Components/Context/CounterContext'
 
 
 
@@ -22,20 +24,11 @@ const PageNotFound = () => {
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Hero />}  />
-          <Route path="/contact" element={<Contact />}  />
-          <Route path="/product/:id" element={<Product />}  />
-          <Route path="/bestselling" element={<BestSelling />}  />
-          <Route path="*" element={<PageNotFound />}  />
-            {/* <FoodCard />
-            <About /> */}
-          
-        </Routes>
-      </BrowserRouter>
-    </>
+    <div className="App">
+      <CounterProvider>
+        <Counter />
+      </CounterProvider>
+    </div>
   );
 }
 
