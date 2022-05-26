@@ -10,25 +10,28 @@ import BestSelling from './Components/BestSelling.js'
 import Contact from './Components/Contact/Contact.js'
 import Counter from './Components/Context/Counter'
 import CounterProvider from './Components/Context/CounterContext'
+import Productjs from './Components/Final/Product'
 
 
 
 
-const PageNotFound = () => {
-  return (
-    <div>
-      <h4>Page ni mil rha</h4>
-    </div>
-  );
-};
+// const PageNotFound = () => {
+//   return (
+//     <div>
+//       <Productjs />
+//     </div>
+//   );
+// };
 
 
 function App() {
   return (
     <div className="App">
-      <CounterProvider>
+          <Productjs />
+
+      {/* <CounterProvider>
         <Counter />
-      </CounterProvider>
+      </CounterProvider> */}
     </div>
   );
 }
